@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  width: 1000px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.winner {
+  background-color: lightgreen;
+}
