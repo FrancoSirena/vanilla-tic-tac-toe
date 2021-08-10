@@ -1,5 +1,3 @@
-import "./styles.css";
-
 function Board(size = 3) {
   this.cells = Array.from({ length: size }, () => Array.from({ length: size }));
   this.game = ["PLAYING", null, []];
