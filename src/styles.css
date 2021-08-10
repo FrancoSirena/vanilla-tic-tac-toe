@@ -4,7 +4,7 @@ body {
 
 .row {
   display: flex;
-  width: 1000px;
+  width: max-content;
 }
 
 .box {
